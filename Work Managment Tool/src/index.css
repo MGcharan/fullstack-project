@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+h1{
+  font-weight: bolder;
+}
+button{
+  color: green;
+  border-radius: 0px !important;
+  box-shadow: none;
+}
+input{
+  height: 40px !important;
+  border-radius: 0 !important;
+  border: 1px solid grey !important;
+}
+input:focus{
+  box-shadow: none !important;
+  border: 2px solid rgb(11, 11, 11) !important;
+}
